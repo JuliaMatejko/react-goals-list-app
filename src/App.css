@@ -1,0 +1,20 @@
+#goals {
+  width: 35rem;
+  max-width: 90%;
+  margin: 3rem auto;
+  border: 1px solid #ffffff7c;
+  border-radius: 8px;
+  padding: 8px 24px;
+  background-color: #0000002a;
+}
+
+#goal-form {
+  width: 30rem;
+  max-width: 90%;
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: #8300002a;
+  border: 1px solid #a52f2fc9;
+}
+

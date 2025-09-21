@@ -1,0 +1,24 @@
+.goal-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 600px; /* Set your desired height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+  scrollbar-width: thin;
+}
+
+/* Transparent scrollbar background and custom thumb */
+.goal-list::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+
+.goal-list::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2); /* Slightly visible thumb */
+  border-radius: 4px;
+}
+
+.goal-list::-webkit-scrollbar-track {
+  background: transparent;
+}
